@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pelatihan Hipnoterapi untuk Dokter & Tenaga Medis Bandung | Sertifikasi DARMA</title>
+<meta name="description" content="Pelatihan hipnoterapi bersertifikat untuk dokter, perawat & tenaga medis di Bandung. Kuasai teknik manajemen nyeri tanpa obat dan penanganan psikosomatis. Sertifikasi nasional diakui negara.">
+<link rel="canonical" href="https://hipnoterapi.or.id/untuk-dokter-tenaga-medis.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "DARMA Hipnoterapi - Program untuk Dokter & Tenaga Medis",
+  "description": "Pelatihan hipnoterapi bersertifikat untuk dokter, perawat, dan tenaga medis profesional",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Jl. Pager Gunung No. 1, Lebakgede",
+    "addressLocality": "Coblong",
+    "addressRegion": "Bandung",
+    "postalCode": "40132",
+    "addressCountry": "ID"
+  },
+  "telephone": "+6285172003369",
+  "areaServed": "Bandung, Jawa Barat"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --ink: #1C2B22;
+  --ink-soft: #2F4038;
+  --sage: #4F6B58;
+  --sage-mid: #6B8C74;
+  --sage-light: #A1B49A;
+  --sage-pale: #D4E2D0;
+  --cream: #F5F0E8;
+  --warm: #EDE4D4;
+  --gold: #B8975A;
+  --gold-light: #D4B47A;
+  --white: #FDFCF9;
+  --clinical: #4A6B7A;
+  --clinical-light: #84A6B5;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--ink); overflow-x: hidden; }
+
+/* NAV */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  padding: 18px 48px;
+  display: flex; align-items: center; justify-content: space-between;
+  background: rgba(28,43,34,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(161,180,154,0.15);
+}
+.nav-logo { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--white); }
+.nav-logo span { color: var(--sage-light); font-style: italic; }
+.nav-cta {
+  background: var(--gold); color: var(--ink); text-decoration: none;
+  padding: 10px 24px; font-size: 12px; font-weight: 600;
+  letter-spacing: 0.1em; text-transform: uppercase; border-radius: 2px;
+  transition: background 0.25s, transform 0.2s;
+}
+.nav-cta:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+/* BREADCRUMB */
+.breadcrumb-bar { background: var(--ink); padding: 86px 48px 16px; }
+.breadcrumb { max-width: 1080px; margin: 0 auto; font-size: 12px; color: rgba(253,252,249,0.4); }
+.breadcrumb a { color: var(--sage-light); text-decoration: none; transition: color 0.2s; }
+.breadcrumb a:hover { color: var(--gold-light); }
+.breadcrumb-sep { margin: 0 8px; opacity: 0.4; }
+
+/* HERO */
+.hero { background: var(--ink); padding: 30px 48px 90px; position: relative; overflow: hidden; }
+.hero-bg-pattern {
+  position: absolute; inset: 0;
+  background-image:
+    radial-gradient(circle at 75% 20%, rgba(74,107,122,0.22) 0%, transparent 50%),
+    radial-gradient(circle at 15% 85%, rgba(184,151,90,0.1) 0%, transparent 45%);
+  pointer-events: none;
+}
+.hero-inner {
+  max-width: 1080px; margin: 0 auto; position: relative; z-index: 2;
+  display: grid; grid-template-columns: 1.3fr 1fr; gap: 60px; align-items: center;
+}
+.hero-pill {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: rgba(74,107,122,0.18); border: 1px solid rgba(74,107,122,0.4);
+  border-radius: 100px; padding: 8px 18px; margin-bottom: 28px;
+}
+.hero-pill-dot { width: 7px; height: 7px; background: var(--clinical-light); border-radius: 50%; animation: blink 2s ease infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+.hero-pill-text { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--clinical-light); font-weight: 500; }
+
+.hero h1 { font-family: 'DM Serif Display', serif; font-size: clamp(34px, 4.2vw, 54px); line-height: 1.15; color: var(--white); margin-bottom: 24px; }
+.hero h1 em { font-style: italic; color: var(--gold-light); }
+
+.hero-desc { font-size: 15px; line-height: 1.85; color: rgba(253,252,249,0.6); font-weight: 300; max-width: 540px; margin-bottom: 36px; }
+.hero-desc strong { color: var(--sage-light); font-weight: 500; }
+
+.hero-actions { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.btn-hero {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--gold); color: var(--ink); text-decoration: none;
+  padding: 16px 32px; font-size: 13px; font-weight: 600;
+  letter-spacing: 0.06em; text-transform: uppercase; border-radius: 3px;
+  transition: all 0.3s;
+}
+.btn-hero:hover { transform: translateY(-3px); box-shadow: 0 14px 36px rgba(184,151,90,0.4); }
+.hero-link { font-size: 13px; color: rgba(253,252,249,0.45); text-decoration: none; border-bottom: 1px solid rgba(253,252,249,0.2); padding-bottom: 2px; }
+.hero-link:hover { color: var(--sage-light); }
+
+.hero-visual { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 32px 28px; }
+.hv-label { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--clinical-light); font-weight: 500; margin-bottom: 18px; }
+.hv-row { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.hv-row:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.hv-icon { font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+.hv-text { font-size: 12.5px; color: rgba(253,252,249,0.55); line-height: 1.6; }
+.hv-text strong { color: var(--white); font-weight: 500; }
+
+/* SECTION BASE */
+section.content { padding: 90px 48px; }
+.inner { max-width: 1080px; margin: 0 auto; }
+.tag { display: inline-flex; align-items: center; gap: 8px; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--sage); font-weight: 600; margin-bottom: 18px; }
+.tag::before { content: ''; width: 26px; height: 1px; background: var(--sage); }
+.h2 { font-family: 'DM Serif Display', serif; font-size: clamp(28px, 4vw, 46px); line-height: 1.15; color: var(--ink); margin-bottom: 16px; }
+.h2 em { font-style: italic; color: var(--sage); }
+.sub { font-size: 15px; color: rgba(28,43,34,0.55); font-weight: 300; line-height: 1.75; max-width: 600px; margin-bottom: 52px; }
+
+/* CLINICAL APPLICATIONS - key differentiator */
+.clinical-section { background: var(--white); }
+.clinical-card {
+  background: var(--ink); border-radius: 12px; padding: 48px 52px; margin-bottom: 56px;
+  position: relative; overflow: hidden;
+}
+.clinical-card::before {
+  content: ''; position: absolute; top: -80px; right: -80px; width: 320px; height: 320px;
+  border-radius: 50%; background: radial-gradient(circle, rgba(74,107,122,0.2) 0%, transparent 70%);
+}
+.clinical-title {
+  font-family: 'DM Serif Display', serif; font-size: 24px; color: var(--white);
+  margin-bottom: 28px; line-height: 1.35; position: relative; z-index: 1;
+}
+.clinical-title em { font-style: italic; color: var(--gold-light); }
+.clinical-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; position: relative; z-index: 1; }
+.clinical-item { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 24px 22px; }
+.clinical-item-icon { font-size: 24px; margin-bottom: 14px; display: block; }
+.clinical-item-title { font-size: 14.5px; font-weight: 600; color: var(--white); margin-bottom: 10px; }
+.clinical-item-desc { font-size: 12.5px; color: rgba(253,252,249,0.55); line-height: 1.65; font-weight: 300; }
+
+/* CASE EVIDENCE */
+.evidence-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 60px; }
+.evidence-card { background: var(--cream); border-radius: 8px; padding: 28px 26px; border-left: 3px solid var(--clinical-light); }
+.evidence-card .eq { font-family: 'Lora', serif; font-style: italic; font-size: 14px; color: rgba(28,43,34,0.6); line-height: 1.7; margin-bottom: 14px; }
+.evidence-card .ea { font-size: 12px; color: rgba(28,43,34,0.45); font-weight: 500; }
+
+.benefit-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; border: 1px solid rgba(79,107,88,0.12); border-radius: 4px; overflow: hidden; }
+.benefit-item { background: var(--white); padding: 32px 26px; transition: background 0.25s; }
+.benefit-item:hover { background: var(--cream); }
+.bi-icon { font-size: 26px; margin-bottom: 14px; display: block; }
+.benefit-item h4 { font-family: 'DM Serif Display', serif; font-size: 19px; color: var(--ink); margin-bottom: 10px; }
+.benefit-item p { font-size: 13px; color: rgba(28,43,34,0.55); line-height: 1.7; font-weight: 300; }
+
+/* CURRICULUM */
+.curriculum-med { background: var(--ink-soft); }
+.curriculum-med .tag { color: var(--sage-light); }
+.curriculum-med .tag::before { background: var(--sage-light); }
+.curriculum-med .h2 { color: var(--white); }
+.curriculum-med .h2 em { color: var(--gold-light); }
+.curriculum-med .sub { color: rgba(253,252,249,0.5); }
+
+.med-materi-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.med-materi-item {
+  background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 6px; padding: 22px 24px; display: flex; gap: 16px; align-items: flex-start;
+  transition: background 0.25s, border-color 0.25s;
+}
+.med-materi-item:hover { background: rgba(74,107,122,0.12); border-color: rgba(74,107,122,0.35); }
+.mmi-num { font-family: 'DM Serif Display', serif; font-size: 24px; color: var(--clinical-light); flex-shrink: 0; width: 32px; }
+.mmi-title { font-size: 14px; font-weight: 600; color: var(--white); margin-bottom: 4px; }
+.mmi-desc { font-size: 12.5px; color: rgba(253,252,249,0.5); line-height: 1.6; font-weight: 300; }
+
+/* USE CASES */
+.usecase-section { background: var(--cream); }
+.usecase-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3px; }
+.usecase-card { background: var(--white); padding: 26px 22px; text-align: center; transition: background 0.25s, transform 0.25s; }
+.usecase-card:hover { background: var(--ink); transform: translateY(-4px); }
+.uc-icon { font-size: 30px; margin-bottom: 12px; display: block; }
+.uc-title { font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 6px; transition: color 0.25s; }
+.usecase-card:hover .uc-title { color: var(--white); }
+.uc-desc { font-size: 11.5px; color: rgba(28,43,34,0.5); line-height: 1.6; font-weight: 300; transition: color 0.25s; }
+.usecase-card:hover .uc-desc { color: rgba(253,252,249,0.55); }
+
+/* DISCLAIMER - YMYL compliance for medical audience */
+.disclaimer-section { background: var(--white); }
+.disclaimer-box {
+  background: var(--cream); border-radius: 8px; padding: 28px 32px;
+  border-left: 3px solid var(--clinical);
+}
+.disclaimer-label {
+  display: flex; align-items: center; gap: 8px; font-size: 11px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--clinical); font-weight: 700; margin-bottom: 12px;
+}
+.disclaimer-box p { font-size: 13.5px; line-height: 1.85; color: rgba(28,43,34,0.65); font-weight: 300; margin: 0; }
+
+/* TESTIMONIAL */
+.testi-med-section { background: var(--white); }
+.testi-med-card {
+  background: var(--ink); border-radius: 12px; padding: 48px 52px;
+  display: grid; grid-template-columns: auto 1fr; gap: 32px; align-items: center;
+  position: relative; overflow: hidden;
+}
+.testi-med-card::before {
+  content: '"'; position: absolute; font-family: 'DM Serif Display', serif;
+  font-size: 220px; color: rgba(74,107,122,0.15); top: -50px; left: 10px; line-height: 1;
+}
+.testi-med-avatar { width: 80px; height: 80px; background: var(--sage-pale); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 36px; flex-shrink: 0; position: relative; z-index: 1; }
+.testi-med-content { position: relative; z-index: 1; }
+.testi-med-stars { color: var(--gold); font-size: 14px; letter-spacing: 3px; margin-bottom: 16px; }
+.testi-med-text { font-family: 'Lora', serif; font-style: italic; font-size: 16px; color: rgba(253,252,249,0.85); line-height: 1.8; margin-bottom: 20px; }
+.testi-med-name { font-size: 14px; font-weight: 600; color: var(--white); }
+.testi-med-role { font-size: 12px; color: rgba(253,252,249,0.4); margin-top: 2px; }
+
+/* RELATED LINKS */
+.related-section { background: var(--cream); }
+.related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.related-card {
+  background: var(--white); border-radius: 8px; padding: 30px 26px; text-decoration: none; display: block;
+  border: 1px solid rgba(28,43,34,0.06); transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
+}
+.related-card:hover { border-color: var(--sage-pale); transform: translateY(-4px); box-shadow: 0 16px 40px rgba(28,43,34,0.08); }
+.rc-eyebrow { font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--sage); font-weight: 600; margin-bottom: 12px; }
+.rc-title { font-family: 'DM Serif Display', serif; font-size: 20px; color: var(--ink); margin-bottom: 10px; line-height: 1.3; }
+.rc-desc { font-size: 13px; color: rgba(28,43,34,0.5); line-height: 1.65; font-weight: 300; margin-bottom: 16px; }
+.rc-link { font-size: 12px; color: var(--sage); font-weight: 600; display: flex; align-items: center; gap: 6px; }
+.rc-arrow { transition: transform 0.25s; display: inline-block; }
+.related-card:hover .rc-arrow { transform: translateX(4px); }
+
+/* FAQ */
+.faq-section { background: var(--white); }
+.faq-list { list-style: none; max-width: 760px; }
+.faq-item { border-bottom: 1px solid rgba(28,43,34,0.08); }
+.faq-q {
+  width: 100%; background: none; border: none; text-align: left; padding: 22px 0;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer;
+  font-size: 14px; font-weight: 600; color: var(--ink); font-family: 'DM Sans', sans-serif; transition: color 0.25s;
+}
+.faq-q:hover { color: var(--sage); }
+.faq-icon {
+  width: 28px; height: 28px; border-radius: 50%; background: var(--cream);
+  display: flex; align-items: center; justify-content: center; font-size: 18px;
+  color: var(--sage); flex-shrink: 0; transition: transform 0.3s, background 0.3s;
+}
+.faq-item.open .faq-icon { transform: rotate(45deg); background: var(--sage); color: var(--white); }
+.faq-a { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; font-size: 14px; line-height: 1.85; color: rgba(28,43,34,0.6); font-weight: 300; }
+.faq-a-inner { padding-bottom: 24px; }
+.faq-item.open .faq-a { max-height: 240px; }
+
+/* FINAL CTA */
+.cta-final { background: var(--ink); padding: 90px 48px; position: relative; overflow: hidden; }
+.cta-final::before {
+  content: ''; position: absolute; top: -100px; right: -100px; width: 500px; height: 500px;
+  border-radius: 50%; background: radial-gradient(circle, rgba(74,107,122,0.2) 0%, transparent 70%);
+}
+.cta-final-inner { max-width: 760px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
+.cta-final .h2 { color: var(--white); margin-bottom: 20px; }
+.cta-final .h2 em { color: var(--gold-light); }
+.cta-final-desc { font-size: 15px; color: rgba(253,252,249,0.55); font-weight: 300; line-height: 1.8; margin-bottom: 40px; max-width: 480px; margin-left: auto; margin-right: auto; }
+.cta-wa-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+  background: #25D366; color: var(--white); text-decoration: none; padding: 18px 40px;
+  border-radius: 6px; font-size: 14px; font-weight: 700; transition: all 0.3s; letter-spacing: 0.02em;
+}
+.cta-wa-btn:hover { background: #1fbb5a; transform: translateY(-2px); box-shadow: 0 12px 36px rgba(37,211,102,0.35); }
+.cta-note { font-size: 12px; color: rgba(253,252,249,0.35); margin-top: 18px; }
+
+/* FOOTER */
+footer { background: #111a14; padding: 48px 48px 36px; }
+.footer-inner { max-width: 1080px; margin: 0 auto; text-align: center; }
+.footer-brand-name { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--white); margin-bottom: 6px; }
+.footer-brand-tag { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--sage-light); font-weight: 300; margin-bottom: 24px; }
+.footer-links { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; margin-bottom: 24px; }
+.footer-links a { font-size: 12px; color: rgba(253,252,249,0.45); text-decoration: none; transition: color 0.25s; }
+.footer-links a:hover { color: var(--sage-light); }
+.footer-copy { font-size: 11px; color: rgba(253,252,249,0.2); }
+
+/* FLOATING WA */
+.float-wa {
+  position: fixed; bottom: 28px; right: 28px; z-index: 200;
+  width: 58px; height: 58px; background: #25D366; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; font-size: 26px;
+  text-decoration: none; box-shadow: 0 8px 28px rgba(37,211,102,0.45);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.float-wa:hover { transform: scale(1.1); }
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-visual { max-width: 420px; }
+  .evidence-grid { grid-template-columns: 1fr; }
+  .benefit-row { grid-template-columns: 1fr; }
+  .med-materi-grid { grid-template-columns: 1fr; }
+  .usecase-grid { grid-template-columns: 1fr 1fr; }
+  .clinical-grid { grid-template-columns: 1fr; }
+  .testi-med-card { grid-template-columns: 1fr; text-align: center; }
+  .testi-med-avatar { margin: 0 auto; }
+  .related-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 768px) {
+  nav { padding: 16px 24px; }
+  .breadcrumb-bar { padding: 80px 24px 16px; }
+  .hero { padding: 20px 24px 60px; }
+  section.content { padding: 64px 24px; }
+  .usecase-grid { grid-template-columns: 1fr; }
+  .clinical-card { padding: 36px 28px; }
+  .testi-med-card { padding: 36px 28px; }
+}
+
+.reveal { opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">DARMA <span>Hipnoterapi</span></div>
+  <a class="nav-cta" href="https://wa.me/6285172003369" target="_blank">Daftar Sekarang</a>
+</nav>
+
+<a class="float-wa" href="https://wa.me/6285172003369" target="_blank">💬</a>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb-bar">
+  <div class="breadcrumb">
+    <a href="/">Pelatihan Hipnoterapi Bandung</a>
+    <span class="breadcrumb-sep">/</span>
+    <span>Untuk Dokter & Tenaga Medis</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg-pattern"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-pill">
+        <span class="hero-pill-dot"></span>
+        <span class="hero-pill-text">Untuk Dokter, Perawat & Tenaga Medis</span>
+      </div>
+      <h1>Terapi Komplementer yang<br><em>Memperkuat Penanganan Medis</em></h1>
+      <p class="hero-desc">
+        Pelatihan hipnoterapi bersertifikat bagi dokter, perawat, dan tenaga medis di Bandung. Kuasai teknik manajemen nyeri non-farmakologis dan penanganan kasus psikosomatis — <strong>melengkapi, bukan menggantikan,</strong> praktik medis yang sudah Anda jalankan.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-hero" href="https://wa.me/6285172003369?text=Halo%2C%20saya%20dokter%2Fperawat%20dan%20ingin%20konsultasi%20program%20Hipnoterapi%20DARMA" target="_blank">Konsultasi Gratis →</a>
+        <a class="hero-link" href="#kurikulum">Lihat Materi Lengkap</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hv-label">Mengapa Ini Relevan untuk Anda</div>
+      <div class="hv-row">
+        <span class="hv-icon">💊</span>
+        <div class="hv-text"><strong>Banyak kasus psikosomatis</strong> — GERD, nyeri kronis, tekanan darah — menunjukkan hasil normal secara medis, namun gejalanya tetap nyata bagi pasien.</div>
+      </div>
+      <div class="hv-row">
+        <span class="hv-icon">💉</span>
+        <div class="hv-text">Hipnoterapi telah digunakan dalam <strong>manajemen nyeri intraoperatif</strong> sebagai pendamping non-farmakologis, termasuk pada prosedur minor seperti sirkumsisi.</div>
+      </div>
+      <div class="hv-row">
+        <span class="hv-icon">📜</span>
+        <div class="hv-text">Sertifikasi <strong>Certified Hypnotherapist (CHt)</strong> dari PRAHIPTI, diakui Kementerian Kesehatan RI, menjadi kredensial sah pendamping praktik klinis Anda.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLINICAL APPLICATIONS -->
+<section class="content clinical-section">
+  <div class="inner">
+    <div class="reveal">
+      <span class="tag">Relevansi Klinis</span>
+      <h2 class="h2">Bukan Pengobatan Alternatif —<br><em>Terapi Komplementer yang Terukur</em></h2>
+      <p class="sub">Hipnoterapi tidak menggantikan diagnosis dan pengobatan medis. Ia bekerja sebagai pendamping yang membantu pasien mengelola respons tubuh terhadap stres, nyeri, dan tekanan psikologis yang menyertai kondisi fisik.</p>
+    </div>
+
+    <div class="clinical-card reveal">
+      <p class="clinical-title">Tiga area klinis di mana hipnoterapi <em>paling sering digunakan</em> sebagai pendamping penanganan medis konvensional.</p>
+      <div class="clinical-grid">
+        <div class="clinical-item">
+          <span class="clinical-item-icon">🩹</span>
+          <div class="clinical-item-title">Manajemen Nyeri Non-Farmakologis</div>
+          <div class="clinical-item-desc">Membantu pasien mengelola persepsi nyeri akut maupun kronis, termasuk pada prosedur minor dan perawatan paliatif.</div>
+        </div>
+        <div class="clinical-item">
+          <span class="clinical-item-icon">🫁</span>
+          <div class="clinical-item-title">Gangguan Psikosomatis</div>
+          <div class="clinical-item-desc">Menangani gejala fisik yang dipicu faktor psikologis — GERD, tekanan darah, ketegangan otot — yang sulit dijelaskan murni secara medis.</div>
+        </div>
+        <div class="clinical-item">
+          <span class="clinical-item-icon">😮‍💨</span>
+          <div class="clinical-item-title">Kecemasan Pra & Pasca Prosedur</div>
+          <div class="clinical-item-desc">Menurunkan kecemasan pasien sebelum tindakan medis, mendukung proses penyembuhan yang lebih nyaman.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="evidence-grid reveal">
+      <div class="evidence-card">
+        <p class="eq">"Pasien sudah menjalani rontgen, fisioterapi, dan obat pereda nyeri — tapi hasilnya normal secara medis. Nyerinya tetap ada."</p>
+        <p class="ea">→ Pola umum pada kasus nyeri psikosomatis kronis</p>
+      </div>
+      <div class="evidence-card">
+        <p class="eq">"Saya ingin membantu pasien mengelola kecemasan sebelum prosedur, tanpa selalu mengandalkan sedasi tambahan."</p>
+        <p class="ea">→ Kebutuhan akan teknik pendamping non-farmakologis</p>
+      </div>
+      <div class="evidence-card">
+        <p class="eq">"Saya melihat banyak gejala fisik pasien yang sebenarnya berakar dari stres dan tekanan emosional."</p>
+        <p class="ea">→ Membutuhkan kerangka kerja untuk menangani akar psikologis, bukan hanya gejala</p>
+      </div>
+      <div class="evidence-card">
+        <p class="eq">"Saya ingin menambah kompetensi yang memperkuat praktik saya sebagai tenaga medis."</p>
+        <p class="ea">→ Sertifikasi CHt memperluas portofolio kompetensi profesional Anda</p>
+      </div>
+    </div>
+
+    <div class="benefit-row reveal">
+      <div class="benefit-item">
+        <span class="bi-icon">🧩</span>
+        <h4>Melengkapi Praktik Medis</h4>
+        <p>Hipnoterapi menjadi alat tambahan yang digunakan berdampingan dengan diagnosis dan pengobatan medis konvensional.</p>
+      </div>
+      <div class="benefit-item">
+        <span class="bi-icon">🎯</span>
+        <h4>Menjangkau Akar Psikologis</h4>
+        <p>Membantu pasien dengan gejala fisik yang berakar dari faktor psikologis — area yang seringkali terlewat oleh pendekatan murni medis.</p>
+      </div>
+      <div class="benefit-item">
+        <span class="bi-icon">🎓</span>
+        <h4>Kredensial Tambahan yang Sah</h4>
+        <p>Gelar Certified Hypnotherapist memperkuat positioning Anda sebagai tenaga medis dengan pendekatan holistik.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CURRICULUM -->
+<section class="content curriculum-med" id="kurikulum">
+  <div class="inner">
+    <div class="reveal">
+      <span class="tag">Materi yang Relevan untuk Anda</span>
+      <h2 class="h2">Teknik yang Dirancang untuk<br><em>Konteks Klinis & Medis</em></h2>
+      <p class="sub">Bagian dari kurikulum sertifikasi hipnoterapi DARMA, dengan penekanan pada teknik yang langsung relevan dengan praktik medis dan keperawatan.</p>
+    </div>
+
+    <div class="med-materi-grid reveal">
+      <div class="med-materi-item">
+        <span class="mmi-num">01</span>
+        <div>
+          <div class="mmi-title">Teknik Konsultasi Pra-Prosedur</div>
+          <div class="mmi-desc">Membangun rapport cepat dengan pasien sebelum tindakan medis untuk menurunkan kecemasan.</div>
+        </div>
+      </div>
+      <div class="med-materi-item">
+        <span class="mmi-num">02</span>
+        <div>
+          <div class="mmi-title">Rapid Induction</div>
+          <div class="mmi-desc">Teknik induksi cepat yang relevan untuk konteks klinis dengan waktu terbatas.</div>
+        </div>
+      </div>
+      <div class="med-materi-item">
+        <span class="mmi-num">03</span>
+        <div>
+          <div class="mmi-title">Anodyne Awareness (Manajemen Nyeri)</div>
+          <div class="mmi-desc">Teknik hipnosis khusus untuk membantu pasien mengelola persepsi nyeri tanpa bergantung penuh pada obat.</div>
+        </div>
+      </div>
+      <div class="med-materi-item">
+        <span class="mmi-num">04</span>
+        <div>
+          <div class="mmi-title">Somatic Signal Therapy (SST)</div>
+          <div class="mmi-desc">Membaca sinyal tubuh pasien sebagai indikator akar masalah psikologis di balik gejala fisik.</div>
+        </div>
+      </div>
+      <div class="med-materi-item">
+        <span class="mmi-num">05</span>
+        <div>
+          <div class="mmi-title">Brief Therapy</div>
+          <div class="mmi-desc">Pendekatan penanganan singkat yang sesuai dengan keterbatasan waktu konsultasi di fasilitas kesehatan.</div>
+        </div>
+      </div>
+      <div class="med-materi-item">
+        <span class="mmi-num">06</span>
+        <div>
+          <div class="mmi-title">Penanganan Psikosomatis & Kecemasan</div>
+          <div class="mmi-desc">Protokol terapeutik untuk gejala fisik yang berakar dari stres, kecemasan, dan tekanan emosional.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- USE CASES -->
+<section class="content usecase-section">
+  <div class="inner">
+    <div class="reveal">
+      <span class="tag">Konteks Aplikasi</span>
+      <h2 class="h2">Relevan di Berbagai<br><em>Setting Layanan Kesehatan</em></h2>
+    </div>
+
+    <div class="usecase-grid reveal">
+      <div class="usecase-card">
+        <span class="uc-icon">🏥</span>
+        <div class="uc-title">Praktik Umum & Spesialis</div>
+        <div class="uc-desc">Menambah pendekatan komplementer untuk pasien dengan gejala psikosomatis atau kecemasan kronis.</div>
+      </div>
+      <div class="usecase-card">
+        <span class="uc-icon">💉</span>
+        <div class="uc-title">Tindakan Minor & Prosedur</div>
+        <div class="uc-desc">Membantu pasien anak maupun dewasa mengelola kecemasan dan persepsi nyeri saat tindakan medis.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DISCLAIMER - YMYL -->
+<section class="content disclaimer-section">
+  <div class="inner" style="max-width: 760px;">
+    <div class="disclaimer-box reveal">
+      <div class="disclaimer-label">⚖ Catatan Etik & Batasan Praktik</div>
+      <p>Hipnoterapi adalah <strong>terapi komplementer</strong> dan tidak dimaksudkan untuk menggantikan diagnosis, pengobatan, atau prosedur medis standar. Materi pelatihan kami menekankan pentingnya batas kewenangan praktik — termasuk kapan suatu kondisi memerlukan rujukan ke spesialis yang sesuai. Penggunaan hipnoterapi dalam konteks klinis harus tetap sejalan dengan kode etik profesi medis masing-masing peserta.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="content testi-med-section">
+  <div class="inner">
+    <div class="reveal">
+      <span class="tag">Testimoni Praktisi</span>
+      <h2 class="h2">Dipercaya oleh Tenaga<br><em>Medis Profesional</em></h2>
+    </div>
+
+    <div class="testi-med-card reveal">
+      <div class="testi-med-avatar">👩‍⚕️</div>
+      <div class="testi-med-content">
+        <div class="testi-med-stars">★★★★★</div>
+        <p class="testi-med-text">"Sebagai dokter umum, saya sering menemukan pasien dengan gejala fisik yang hasil pemeriksaannya normal, tapi keluhannya tetap nyata. Setelah belajar hipnoterapi hingga level Professional, saya akhirnya punya pendekatan tambahan untuk membantu pasien-pasien seperti ini — dengan kerangka kerja yang jelas dan etis."</p>
+        <div class="testi-med-name">dr. Dyah Ayu Firsty</div>
+        <div class="testi-med-role">Dokter Umum · Certified Hypnotherapist, DARMA</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="content faq-section">
+  <div class="inner">
+    <div class="reveal">
+      <span class="tag">Pertanyaan dari Tenaga Medis</span>
+      <h2 class="h2" style="font-size:clamp(26px,3.2vw,40px);">Yang Sering Ditanyakan<br><em>Dokter & Perawat</em></h2>
+    </div>
+
+    <div class="reveal">
+      <ul class="faq-list">
+        <li class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Apakah hipnoterapi diakui dalam dunia medis?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Hipnoterapi dikategorikan sebagai terapi komplementer yang digunakan bersamaan dengan perawatan medis konvensional, bukan sebagai pengganti. Beberapa rumah sakit di Indonesia bahkan memiliki dokter spesialis yang menggunakan hipnoterapi sebagai bagian dari pendekatan psikosomatik dan paliatif.</div></div>
+        </li>
+        <li class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Saya perawat, bukan dokter — apakah tetap relevan?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Sangat relevan. Banyak perawat menggunakan teknik hipnoterapi dasar untuk membantu pasien mengelola kecemasan sebelum prosedur atau nyeri ringan, dalam batas kewenangan profesional masing-masing. Materi kami disesuaikan dengan konteks kerja Anda.</div></div>
+        </li>
+        <li class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Apakah ini akan mengubah cara saya berpraktik secara mendasar?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Tidak. Hipnoterapi dirancang sebagai alat tambahan, bukan pengganti pendekatan medis yang sudah Anda kuasai. Anda tetap menjalankan diagnosis dan pengobatan standar, dengan tambahan satu lapisan teknik untuk kasus yang membutuhkan pendekatan psikologis.</div></div>
+        </li>
+        <li class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Apakah ada batasan kasus yang boleh ditangani dengan hipnoterapi?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Ya, dan ini dibahas secara eksplisit dalam materi pelatihan. Kondisi seperti psikosis akut atau gangguan kejiwaan berat membutuhkan penanganan psikiatri, bukan hipnoterapi semata. Instruktur kami menekankan etika dan batas kompetensi di setiap level pelatihan.</div></div>
+        </li>
+        <li class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">
+            Apakah sertifikat CHt diakui Kementerian Kesehatan?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Sertifikat Certified Hypnotherapist (CHt) dari PRAHIPTI adalah pengakuan resmi di bidang hipnoterapi yang diakui Kementerian Kesehatan RI. Ini melengkapi kredensial medis yang sudah Anda miliki sebagai dokter atau tenaga kesehatan.</div></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- RELATED LINKS -->
+<section class="content related-section">
+  <div class="inner">
+    <div class="reveal">
+      <span class="tag">Pelajari Lebih Lanjut</span>
+      <h2 class="h2" style="font-size:clamp(26px,3.2vw,38px);">Jelajahi Program <em>Lainnya</em></h2>
+    </div>
+
+    <div class="related-grid reveal">
+      <a class="related-card" href="/">
+        <div class="rc-eyebrow">Program Utama</div>
+        <div class="rc-title">Sertifikasi Hipnoterapi Profesional Bandung</div>
+        <p class="rc-desc">Kurikulum lengkap dari Basic hingga Professional dengan sertifikasi kompetensi nasional yang diakui negara.</p>
+        <span class="rc-link">Lihat Program Lengkap <span class="rc-arrow">→</span></span>
+      </a>
+      <a class="related-card" href="/untuk-psikolog-konselor.html">
+        <div class="rc-eyebrow">Niche Profesi Lain</div>
+        <div class="rc-title">Hipnoterapi untuk Psikolog & Konselor</div>
+        <p class="rc-desc">Teknik hipnoterapi yang diterapkan khusus untuk konteks konseling dan praktik klinis psikologi.</p>
+        <span class="rc-link">Lihat Program untuk Konselor <span class="rc-arrow">→</span></span>
+      </a>
+      <a class="related-card" href="/apa-itu-hipnoterapi.html">
+        <div class="rc-eyebrow">Pelajari Dasarnya</div>
+        <div class="rc-title">Apa itu Hipnoterapi?</div>
+        <p class="rc-desc">Pengertian, cara kerja, dan manfaat hipnoterapi yang dijelaskan secara komprehensif.</p>
+        <span class="rc-link">Baca Penjelasan Lengkap <span class="rc-arrow">→</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="cta-final">
+  <div class="cta-final-inner">
+    <span class="tag" style="justify-content:center">Perluas Pendekatan Klinis Anda</span>
+    <h2 class="h2">Jadi Praktisi Medis dengan<br><em>Pendekatan Lebih Holistik</em></h2>
+    <p class="cta-final-desc">
+      Konsultasikan kebutuhan praktik Anda secara gratis. Kami bantu tentukan materi dan level yang paling relevan dengan konteks kerja Anda sebagai dokter, perawat, atau tenaga medis lainnya.
+    </p>
+    <a class="cta-wa-btn" href="https://wa.me/6285172003369?text=Halo%2C%20saya%20dokter%2Fperawat%20dan%20ingin%20konsultasi%20program%20Hipnoterapi%20DARMA" target="_blank">
+      💬 Konsultasi Gratis via WhatsApp
+    </a>
+    <p class="cta-note">0851-7200-3369 · Respons cepat · Khusus dokter & tenaga medis</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand-name">DARMA Hipnoterapi</div>
+    <div class="footer-brand-tag">Emotional Healing & Subconscious Transformation</div>
+    <div class="footer-links">
+      <a href="/">Program Sertifikasi Utama</a>
+      <a href="/untuk-guru-dosen.html">Untuk Guru & Dosen</a>
+      <a href="/untuk-psikolog-konselor.html">Untuk Psikolog & Konselor</a>
+      <a href="/apa-itu-hipnoterapi.html">Apa itu Hipnoterapi?</a>
+      <a href="/hipnoterapi-coblong-dago-bandung.html">Lokasi Coblong & Dago</a>
+      <a href="/darma-pelatihan-privat.html">Pelatihan Privat</a>
+      <a href="mailto:info@darmahipnoterapi.com">info@darmahipnoterapi.com</a>
+    </div>
+    <div class="footer-copy">© 2025 DARMA Hipnoterapi · Jl. Pager Gunung No 1, Coblong, Bandung</div>
+  </div>
+</footer>
+
+<script>
+function toggleFaq(btn) {
+  const item = btn.closest('.faq-item');
+  const isOpen = item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+  if (!isOpen) item.classList.add('open');
+}
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('visible'), i * 60);
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.08 });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
