@@ -1,4 +1,52 @@
+# robots.txt — hipnoterapi.or.id
+# Mengizinkan mesin pencari standar dan crawler AI utama agar konten
+# bisa terindeks di Google/Bing DAN muncul sebagai rujukan di
+# ChatGPT, Perplexity, Google AI Overview, dan Claude.
+
 User-agent: *
+Allow: /
+
+# --- Crawler AI / Answer Engine (GEO) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
 Allow: /
 
 Sitemap: https://hipnoterapi.or.id/sitemap.xml

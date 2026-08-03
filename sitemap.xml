@@ -1,141 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Halaman Utama -->
   <url>
     <loc>https://hipnoterapi.or.id/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/apa-itu-hipnoterapi</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/darma-pelatihan-privat</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/hipnoterapi-antapani-arcamanik-bandung</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/hipnoterapi-coblong-dago-bandung</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/untuk-dokter-tenaga-medis</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/untuk-guru-dosen</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/untuk-psikolog-konselor</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/biaya-pelatihan-hipnoterapi</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/hipnoterapi-bandung-wetan</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/sertifikasi-hipnoterapi</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/untuk-trainer-coach-hr-corporate</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/berapa-lama-jadi-hipnoterapis-profesional</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/cara-menjadi-hipnoterapis-bersertifikat</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+
+  <!-- Pages Inti (Program) -->
   <url>
     <loc>https://hipnoterapi.or.id/pelatihan-hipnoterapi-bandung</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/biaya-pelatihan-hipnoterapi-bandung</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hipnoterapi.or.id/perbedaan-basic-advance-professional</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://hipnoterapi.or.id/sertifikasi-cht-prahipti</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/jadwal-pelatihan-hipnoterapi</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/testimoni-alumni-pelatihan-hipnoterapi</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hipnoterapi.or.id/prospek-karir-penghasilan-hipnoterapis</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://hipnoterapi.or.id/pelatihan-hipnoterapi-untuk-pemula</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/cara-menjadi-hipnoterapis-bersertifikat-indonesia</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hipnoterapi.or.id/apa-itu-prahipti</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://hipnoterapi.or.id/blog/perbedaan-hipnoterapi-basic-advance-professional</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hipnoterapi.or.id/mitos-tentang-hipnoterapi</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/hipnoterapi-vs-psikoterapi</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hipnoterapi.or.id/kisah-alumni-guru-jadi-praktisi</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://hipnoterapi.or.id/blog/berapa-lama-waktu-jadi-hipnoterapis-profesional</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://hipnoterapi.or.id/skill-sebelum-pelatihan-hipnoterapi</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://hipnoterapi.or.id/blog/prospek-karir-penghasilan-hipnoterapis-indonesia</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/apa-itu-prahipti</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hipnoterapi.or.id/panduan-membuka-praktik-hipnoterapi</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://hipnoterapi.or.id/blog/mitos-tentang-hipnoterapi</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/hipnoterapi-vs-psikoterapi</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/kisah-alumni-dari-guru-jadi-praktisi-hipnoterapi</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/skill-sebelum-ikut-pelatihan-hipnoterapi</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/panduan-membuka-praktik-hipnoterapi</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/panduan-memilih-tempat-pelatihan-hipnoterapi-bandung</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/hari-pertama-pelatihan-hipnoterapi</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/alasan-bandung-kota-ideal-belajar-hipnoterapi</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/pelatihan-hipnoterapi-online-vs-tatap-muka</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/teknik-dasar-hipnoterapi-wajib-pemula</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://hipnoterapi.or.id/blog/panduan-lengkap-sertifikat-hipnoterapi-pemula</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
