@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <!-- Halaman Utama -->
   <url>
@@ -144,5 +145,45 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+
+  <!-- Image -->
+  <url>
+    <loc>https://hipnoterapi.or.id/</loc><image:image>
+      
+      <image:loc>https://hipnoterapi.or.id/media/pelatihan-hipnoterapi-basic-advance-professional-darma-bandung.jpg</image:loc>
+      <image:title>Pelatihan Hipnoterapi Basic, Advance &amp; Professional - DARMA Hipnoterapi Bandung</image:title>
+      <image:caption>Poster pelatihan hipnoterapi DARMA Hipnoterapi Bandung dari level Basic, Advance hingga Professional</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hipnoterapi.or.id/media/pelatihan-hipnoterapi-darma-bandung-lanskap.jpg</image:loc>
+      <image:title>Pelatihan Hipnoterapi DARMA Hipnoterapi - Basic hingga Professional</image:title>
+      <image:caption>Banner pelatihan hipnoterapi DARMA Hipnoterapi Bandung, program Basic hingga Professional dengan sertifikasi resmi</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://hipnoterapi.or.id/sertifikasi-cht-prahipti</loc>
+    <image:image>
+      <image:loc>https://hipnoterapi.or.id/media/program-sertifikasi-hipnoterapis-darma-instruktur-pria-bandung.jpg</image:loc>
+      <image:title>Program Menjadi Hipnoterapis Tersertifikasi - Pelatihan Hipnoterapi Bandung</image:title>
+      <image:caption>Instruktur pria memandu sesi pelatihan hipnoterapi di DARMA Hipnoterapi Bandung menuju sertifikasi hipnoterapis</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://hipnoterapi.or.id/media/program-sertifikasi-hipnoterapis-darma-instruktur-wanita-bandung.jpg</image:loc>
+      <image:title>Program Menjadi Hipnoterapis Tersertifikasi - Pelatihan Hipnoterapi Bandung</image:title>
+      <image:caption>Instruktur wanita memandu sesi pelatihan hipnoterapi di DARMA Hipnoterapi Bandung menuju sertifikasi hipnoterapis</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://hipnoterapi.or.id/pelatihan-hipnoterapi-untuk-pemula</loc>
+    <image:image>
+      <image:loc>https://hipnoterapi.or.id/media/kurikulum-basic-hipnoterapi-darma-bandung.jpg</image:loc>
+      <image:title>Materi Basic Hipnoterapi - DARMA Hipnoterapi Bandung</image:title>
+      <image:caption>Daftar kurikulum lengkap kelas Basic Hipnoterapi DARMA Hipnoterapi, dari teori dasar hingga teknik induksi</image:caption>
+    </image:image>
+  </url>
+
+</urlset>
 
 </urlset>
