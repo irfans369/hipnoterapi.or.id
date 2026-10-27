@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formulir Pendaftaran Pelatihan Privat – DARMA Hipnoterapi</title>
+<meta name="description" content="Daftar pelatihan hipnoterapi privat 1-on-1 DARMA Hipnoterapi Bandung. Pilih program, isi data, dan unduh bukti pendaftaran PDF.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#10302F;--mist:#F3F6F5;--line:#D3DDDA;--brass:#B5812F;--soft:#E3ECE9;--mute:#5B706D;--err:#B3392F}
+*{box-sizing:border-box;margin:0}
+body{font:16px/1.6 Figtree,system-ui,sans-serif;color:var(--ink);background:var(--mist);padding-bottom:120px}
+h1,h2,.fr{font-family:Fraunces,Georgia,serif;font-weight:600}
+.top{background:var(--ink);color:#fff;padding:28px 20px 34px}
+.w{max-width:780px;margin:0 auto;padding:0 16px}
+.top .w{padding:0}
+.brand{font:600 15px Fraunces,serif;letter-spacing:.06em}
+.brand small{display:block;font:400 12.5px Figtree,sans-serif;letter-spacing:0;opacity:.7}
+.top h1{font-size:clamp(28px,6vw,40px);line-height:1.15;margin:22px 0 8px;max-width:20ch}
+.top p{opacity:.8;max-width:52ch}
+fieldset{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 18px;margin:18px 0;min-width:0}
+legend{font:600 20px Fraunces,serif;padding:0 6px;margin-left:-6px}
+.hint{color:var(--mute);font-size:14px;margin:-2px 0 14px}
+.progs{display:grid;gap:12px}
+.pc{display:block;position:relative;cursor:pointer}
+.pc input{position:absolute;opacity:0;inset:0}
+.ci{display:grid;gap:2px;border:1.5px solid var(--line);border-radius:12px;padding:14px 16px;background:#fff;transition:border-color .15s,box-shadow .15s}
+.ci b{font:600 19px Fraunces,serif}
+.ci em{font-style:normal;color:var(--mute);font-size:14px}
+.ci strong{font-size:20px;margin-top:6px}
+.ci small{color:var(--mute)}
+.ci i{font-style:normal;font-size:13px;color:#7A5513;background:#FBF1DC;border-radius:8px;padding:4px 9px;margin-top:8px;justify-self:start}
+.pc input:checked+.ci{border-color:var(--brass);box-shadow:0 0 0 2px var(--brass);background:#FDFAF3}
+.pc input:focus-visible+.ci{outline:3px solid #6AA39B;outline-offset:2px}
+.g{display:grid;gap:14px}
+.g>label{display:grid;gap:6px;font-weight:600;font-size:14.5px}
+.g label small{font-weight:400;color:var(--mute);font-size:13px}
+input:not([type=radio]):not([type=checkbox]),select,textarea{font:inherit;font-weight:400;width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink)}
+textarea{min-height:96px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:3px solid #6AA39B55;border-color:#3E7F77}
+.note{display:none;background:var(--soft);border-radius:10px;padding:12px 14px;font-size:14.5px;margin-top:12px}
+.note.on{display:block}
+.chk{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.chk input{margin-top:5px;width:18px;height:18px;accent-color:var(--ink);flex:none}
+.hp{position:absolute;left:-9999px}
+.bar{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid var(--line);padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));z-index:5}
+.bar .w{display:flex;gap:14px;align-items:center;justify-content:space-between;padding:0}
+.sum{font-size:14px;line-height:1.3}.sum b{display:block;font-size:17px}
+.btn{font:700 15px Figtree,sans-serif;border:0;border-radius:10px;padding:13px 20px;background:var(--ink);color:#fff;cursor:pointer;text-decoration:none;display:inline-block;text-align:center}
+.btn:hover{background:#1B4846}.btn:disabled{opacity:.6;cursor:wait}
+.btn.alt{background:#fff;color:var(--ink);border:1.5px solid var(--ink)}
+.btn.wa{background:#1F7A4D}
+#ok{display:none;background:#fff;border:1px solid var(--line);border-radius:14px;padding:26px 20px;margin:22px 0}
+#ok h2{font-size:26px;margin-bottom:6px}
+.reg{display:inline-block;font:600 22px Fraunces,serif;background:var(--soft);border-radius:10px;padding:6px 14px;margin:10px 0}
+.acts{display:grid;gap:10px;margin-top:18px}
+.err{color:var(--err);font-size:14.5px;margin-top:10px}
+@media(min-width:640px){.progs,.g{grid-template-columns:1fr 1fr}.g .full{grid-column:1/-1}fieldset{padding:24px}.acts{grid-template-columns:repeat(2,auto);justify-content:start}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* Template PDF (A4, disalin ke gambar saat generate) */
+#pdf{position:fixed;left:-9999px;top:0;width:794px;height:1123px;background:#fff;color:#10302F;font:14px/1.5 Figtree,sans-serif;overflow:hidden}
+#pdf .h{background:#10302F;color:#fff;padding:36px 48px;display:flex;justify-content:space-between;align-items:flex-end}
+#pdf .h b{font:600 22px Fraunces,serif;letter-spacing:.05em}
+#pdf .h small{display:block;opacity:.7;font-size:12px;margin-top:4px}
+#pdf .h .r{text-align:right;font-size:12px}
+#pdf .h .r b{display:block;font-size:17px;color:#E2B766;margin-top:2px;letter-spacing:0}
+#pdf .m{padding:32px 48px 0}
+#pdf h1{font:600 28px/1.2 Fraunces,serif}
+#pdf .d{color:#5B706D;font-size:13px;margin-top:2px}
+#pdf .pr{margin:20px 0 4px;border:1.5px solid #B5812F;background:#FBF6EC;border-radius:12px;padding:16px 22px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+#pdf .pr b{font:600 22px Fraunces,serif;display:block}
+#pdf .pr span{color:#5B706D;font-size:13px}
+#pdf .pr strong{font-size:24px;white-space:nowrap}
+#pdf h3{font:600 15.5px Fraunces,serif;margin:22px 0 8px;padding-bottom:6px;border-bottom:1px solid #D3DDDA}
+#pdf dl{display:grid;grid-template-columns:150px 1fr;gap:5px 14px;font-size:13px}
+#pdf dt{color:#5B706D}#pdf dd{margin:0;font-weight:600;overflow-wrap:anywhere}
+#pdf ol{padding-left:20px;font-size:13px;display:grid;gap:3px}
+#pdf .ft{position:absolute;bottom:0;left:0;right:0;padding:16px 48px;background:#E3ECE9;font-size:11.5px;color:#10302F}
+#pdf .ft b{font-size:12.5px}
+</style>
+</head>
+<body>
+<header class="top"><div class="w">
+ <div class="brand">DARMA HIPNOTERAPI<small>Emotional Healing &amp; Subconscious Transformation</small></div>
+ <h1>Daftar pelatihan hipnoterapi privat</h1>
+ <p>Pilih program, isi data diri, lalu unduh bukti pendaftaran. Admin akan menghubungi Anda lewat WhatsApp untuk mengatur jadwal.</p>
+</div></header>
+
+<main class="w">
+<form id="f" novalidate>
+ <fieldset>
+  <legend>Program yang Anda pilih</legend>
+  <div class="progs" id="progs"></div>
+  <div class="note" id="eNote">Program Privat Elite diawali konsultasi kelayakan bersama instruktur. Skema pembayaran dibicarakan langsung dengan admin.</div>
+ </fieldset>
+
+ <fieldset>
+  <legend>Data diri</legend>
+  <div class="g">
+   <label class="full">Nama lengkap<input name="nama" required maxlength="80" autocomplete="name"><small>Tulis sesuai KTP, nama ini dipakai untuk sertifikat.</small></label>
+   <label>Tempat lahir<input name="tempatLahir" required maxlength="50"></label>
+   <label>Tanggal lahir<input type="date" name="tglLahir" required></label>
+   <label>Nomor WhatsApp<input type="tel" name="wa" required inputmode="tel" maxlength="18" placeholder="0812xxxxxxx" autocomplete="tel"></label>
+   <label>Email<input type="email" name="email" required maxlength="80" autocomplete="email"></label>
+   <label>Kota domisili<input name="kota" required maxlength="50"></label>
+   <label>Pekerjaan / profesi<input name="pekerjaan" required maxlength="60"></label>
+   <label class="full">Pendidikan terakhir
+    <select name="pendidikan" required><option value="">Pilih</option><option>SMA/SMK</option><option>Diploma</option><option>S1</option><option>S2</option><option>S3</option><option>Lainnya</option></select></label>
+  </div>
+ </fieldset>
+
+ <fieldset>
+  <legend>Latar belakang dan tujuan</legend>
+  <div class="g">
+   <label>Pengalaman hipnoterapi
+    <select name="pengalaman" required><option value="">Pilih</option><option>Pemula, belum pernah belajar</option><option>Pernah ikut pelatihan dasar</option><option>Sudah praktik hipnoterapi</option><option>Profesional bidang membantu (dokter, psikolog, konselor, coach)</option></select></label>
+   <label>Tujuan utama
+    <select name="tujuan" required><option value="">Pilih</option><option>Mengenal dan belajar fundamental</option><option>Bisa menangani berbagai kasus</option><option>Menjadi praktisi / membuka praktik</option><option>Menambah kompetensi profesi saya</option><option>Pengembangan diri</option></select></label>
+   <label class="full">Harapan atau catatan untuk instruktur <small>Opsional, maksimal 400 karakter.</small><textarea name="catatan" maxlength="400"></textarea></label>
+  </div>
+ </fieldset>
+
+ <fieldset>
+  <legend>Jadwal dan pembayaran</legend>
+  <div class="g">
+   <label>Rencana mulai
+    <select name="mulai" required><option value="">Pilih</option><option>Secepatnya (dalam 2 minggu)</option><option>Bulan ini</option><option>1–3 bulan lagi</option><option>Belum pasti</option></select></label>
+   <label>Waktu belajar yang cocok
+    <select name="jadwal" required><option value="">Pilih</option><option>Hari kerja</option><option>Akhir pekan</option><option>Fleksibel</option></select></label>
+   <label>Rencana pembayaran
+    <select name="bayar" required><option value="">Pilih</option><option>Bayar penuh</option><option>Bertahap (dibicarakan dengan admin)</option><option>Ingin diskusi dulu</option></select></label>
+   <label>Tahu DARMA dari mana
+    <select name="sumber" required><option value="">Pilih</option><option>Instagram</option><option>Google</option><option>Rekomendasi teman/alumni</option><option>Lainnya</option></select></label>
+  </div>
+  <label class="chk" style="margin-top:18px"><input type="checkbox" name="setuju" required>Data yang saya isi benar, dan saya setuju DARMA Hipnoterapi memakainya untuk memproses pendaftaran ini.</label>
+  <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <p class="err" id="err" role="alert" hidden></p>
+ </fieldset>
+
+ <div class="bar"><div class="w">
+  <div class="sum" id="sum"><b>Pilih program dulu</b></div>
+  <button class="btn" id="go" type="submit">Kirim dan unduh PDF</button>
+ </div></div>
+</form>
+
+<section id="ok" aria-live="polite">
+ <h2>Pendaftaran Anda sudah dibuat</h2>
+ <p id="okMsg"></p>
+ <div class="reg" id="okNo"></div>
+ <p>Bukti pendaftaran PDF otomatis terunduh. Kirim juga konfirmasi ke admin agar jadwal Anda diproses.</p>
+ <div class="acts">
+  <a class="btn wa" id="waBtn" target="_blank" rel="noopener">Konfirmasi lewat WhatsApp</a>
+  <button class="btn alt" id="dl" type="button">Unduh ulang PDF</button>
+  <button class="btn alt" type="button" onclick="location.reload()">Isi formulir lagi</button>
+ </div>
+</section>
+</main>
+
+<div id="pdf" aria-hidden="true"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+const GAS_URL="ISI_URL_GOOGLE_APPS_SCRIPT_DISINI"; // URL Web App Apps Script, isi nanti
+const WA="6285172003369";
+const $=s=>document.querySelector(s),rp=n=>"Rp "+n.toLocaleString("id-ID");
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const P=[
+{k:"basic",n:"Basic",s:"Kenal dan kuasai fundamental",p:3900000,d:"± 6 jam pembelajaran"},
+{k:"advance",n:"Advance",s:"Kuasai kasus dan pendekatan",p:4900000,d:"± 8 jam pembelajaran"},
+{k:"pro",n:"Professional",s:"Pendalaman dan pengembangan praktik",p:7900000,d:"± 10 jam pembelajaran"},
+{k:"jalurb",n:"Basic + Advance",s:"Jalur B: belajar sampai bisa menangani kasus",p:7900000,d:"± 14 jam pembelajaran",h:"Hemat Rp 900 ribu dari paket terpisah"},
+{k:"complete",n:"Complete",s:"Basic + Advance + Professional",p:12900000,d:"± 24 jam pembelajaran",h:"Hemat Rp 3,8 juta dari paket terpisah"},
+{k:"elite",n:"Privat Elite",s:"Certified Clinical & Applied Hypnotherapist, 4 modul",p:35000000,d:"Durasi mengikuti kemajuan peserta",h:"Termasuk ujian LSK-HI, pendampingan legalitas praktik, dan mentorship kasus",e:1}
+];
+$("#progs").innerHTML=P.map(x=>`<label class="pc"><input type="radio" name="program" value="${x.k}" required><span class="ci"><b>${x.n}</b><em>${x.s}</em><strong>${rp(x.p)}</strong><small>${x.d}</small>${x.h?`<i>${x.h}</i>`:""}</span></label>`).join("");
+$("#f").addEventListener("change",()=>{
+ const x=P.find(p=>p.k===($("#f").program.value));
+ $("#sum").innerHTML=x?`<b>${x.n}</b>${rp(x.p)}`:"<b>Pilih program dulu</b>";
+ $("#eNote").classList.toggle("on",!!(x&&x.e));
+});
+
+const fmtD=v=>v?new Date(v+"T00:00").toLocaleDateString("id-ID",{dateStyle:"long"}):"";
+const row=(k,v)=>v?`<dt>${k}</dt><dd>${esc(v)}</dd>`:"";
+function tpl(d,x){
+ return `<div class="h"><div><b>DARMA HIPNOTERAPI</b><small>Emotional Healing &amp; Subconscious Transformation</small></div><div class="r">Bukti pendaftaran<b>${esc(d.noReg)}</b></div></div>
+<div class="m"><h1>Pendaftaran Pelatihan Privat</h1><div class="d">Diterima ${esc(d.waktu)} WIB</div>
+<div class="pr"><div><b>${esc(x.n)}</b><span>${esc(x.s)} · ${esc(x.d)}</span></div><strong>${rp(x.p)}</strong></div>
+<h3>Data peserta</h3><dl>${row("Nama lengkap",d.nama)}${row("Tempat, tanggal lahir",d.tempatLahir+", "+fmtD(d.tglLahir))}${row("WhatsApp",d.wa)}${row("Email",d.email)}${row("Kota domisili",d.kota)}${row("Pekerjaan",d.pekerjaan)}${row("Pendidikan",d.pendidikan)}</dl>
+<h3>Latar belakang dan tujuan</h3><dl>${row("Pengalaman",d.pengalaman)}${row("Tujuan utama",d.tujuan)}${row("Harapan",d.catatan)}</dl>
+<h3>Jadwal dan pembayaran</h3><dl>${row("Rencana mulai",d.mulai)}${row("Waktu belajar",d.jadwal)}${row("Pembayaran",d.bayar)}${row("Sumber info",d.sumber)}</dl>
+<h3>Langkah berikutnya</h3><ol><li>Kirim bukti ini ke admin lewat WhatsApp.</li><li>${x.e?"Admin mengatur konsultasi kelayakan bersama instruktur.":"Admin mengonfirmasi jadwal dan pembayaran."}</li><li>Mulai belajar sesuai jadwal yang disepakati.</li></ol></div>
+<div class="ft"><b>Admin: 0851 7200 3369 (Rizqi)</b> · darmahipnoterapi.com · Bandung, Jawa Barat<br>Dokumen ini bukti pengisian formulir, belum merupakan tanda lunas atau jaminan kursi.</div>`;
+}
+async function makePdf(d,x){
+ $("#pdf").innerHTML=tpl(d,x);
+ await document.fonts.ready;
+ const c=await html2canvas($("#pdf"),{scale:2,backgroundColor:"#fff"});
+ const doc=new window.jspdf.jsPDF({unit:"mm",format:"a4",compress:true});
+ doc.addImage(c.toDataURL("image/jpeg",.92),"JPEG",0,0,210,297);
+ return doc;
+}
+let pdfDoc,pdfName;
+$("#f").addEventListener("submit",async ev=>{
+ ev.preventDefault();
+ const f=ev.target,err=$("#err");err.hidden=true;
+ if(!f.reportValidity())return;
+ const d=Object.fromEntries(new FormData(f));
+ if(d.website)return;
+ const x=P.find(p=>p.k===d.program);
+ d.wa=d.wa.replace(/\D/g,"").replace(/^0/,"62").replace(/^8/,"628");
+ const now=new Date();
+ d.waktu=now.toLocaleString("id-ID",{timeZone:"Asia/Jakarta",dateStyle:"long",timeStyle:"short"});
+ d.noReg="DRM-"+now.toISOString().slice(2,10).replace(/-/g,"")+"-"+Math.floor(1000+Math.random()*9000);
+ const btn=$("#go");btn.disabled=true;btn.textContent="Membuat PDF…";
+ try{
+  pdfDoc=await makePdf(d,x);
+  pdfName=`Pendaftaran-DARMA-${d.noReg}-${d.nama.trim().replace(/[^\w]+/g,"_")}.pdf`;
+  pdfDoc.save(pdfName);
+  let sent=false;
+  if(GAS_URL.startsWith("http")){
+   btn.textContent="Mengirim data…";
+   try{
+    await fetch(GAS_URL,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain;charset=utf-8"},
+     body:JSON.stringify({...d,programNama:x.n,harga:x.p,pdfName,pdfBase64:pdfDoc.output("datauristring").split(",")[1]})});
+    sent=true;
+   }catch(e){console.error(e)}
+  }
+  $("#okNo").textContent=d.noReg;
+  $("#okMsg").textContent=sent?"Data Anda sudah terkirim ke admin DARMA.":"Data belum terkirim otomatis. Kirim PDF bukti pendaftaran lewat WhatsApp agar admin dapat memprosesnya.";
+  $("#waBtn").href=`https://wa.me/${WA}?text=`+encodeURIComponent(`Halo Kak Rizqi, saya sudah mengisi formulir pendaftaran.\nNo. registrasi: ${d.noReg}\nNama: ${d.nama}\nProgram: ${x.n} (${rp(x.p)})`);
+  f.style.display="none";$("#ok").style.display="block";scrollTo({top:0});
+ }catch(e){
+  console.error(e);err.textContent="PDF gagal dibuat. Periksa koneksi internet, lalu coba kirim lagi.";err.hidden=false;
+  btn.disabled=false;btn.textContent="Kirim dan unduh PDF";
+ }
+});
+$("#dl").onclick=()=>pdfDoc&&pdfDoc.save(pdfName);
+</script>
+</body>
+</html>
